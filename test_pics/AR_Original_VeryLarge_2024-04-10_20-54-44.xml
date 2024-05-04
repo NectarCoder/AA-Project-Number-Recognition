@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Downloads</folder>
+	<filename>AR_Original_VeryLarge_2024-04-10_20-54-44.png</filename>
+	<path>C:\Users\amrutvyasa\Downloads\AR_Original_VeryLarge_2024-04-10_20-54-44.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>four</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>124</xmin>
+			<ymin>74</ymin>
+			<xmax>252</xmax>
+			<ymax>244</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,38 @@
+<annotation>
+	<folder>ColorJitter transform</folder>
+	<filename>AR_ColorJitter_Small_2024-04-10_20-43-34.png</filename>
+	<path>C:\Users\amrutvyasa\Downloads\ColorJitter transform\AR_ColorJitter_Small_2024-04-10_20-43-34.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>two</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>66</xmin>
+			<ymin>106</ymin>
+			<xmax>107</xmax>
+			<ymax>166</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>three</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>211</xmin>
+			<ymin>106</ymin>
+			<xmax>250</xmax>
+			<ymax>164</ymax>
+		</bndbox>
+	</object>
+</annotation>

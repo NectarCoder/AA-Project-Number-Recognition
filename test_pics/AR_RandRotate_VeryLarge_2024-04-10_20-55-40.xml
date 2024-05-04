@@ -1,0 +1,26 @@
+<annotation>
+	<folder>RandomRotate transform</folder>
+	<filename>AR_RandRotate_VeryLarge_2024-04-10_20-55-40.png</filename>
+	<path>C:\Users\amrutvyasa\Downloads\RandomRotate transform\AR_RandRotate_VeryLarge_2024-04-10_20-55-40.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>320</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>seven</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>97</xmin>
+			<ymin>68</ymin>
+			<xmax>207</xmax>
+			<ymax>239</ymax>
+		</bndbox>
+	</object>
+</annotation>

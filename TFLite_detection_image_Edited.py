@@ -1,16 +1,22 @@
-######## Webcam Object Detection Using Tensorflow-trained Classifier #########
-#
-# Author: Evan Juras
-# Date: 11/11/22
+######## Modified: Image Object Detection Using Tensorflow-trained Classifier #########
+# Original Author: Evan Juras. Please refer to TFLite_detection_image.py for the original script.
+# You can do a diff between the two files to see the changes made by our group.
+# Author: Michael Hayes, Cody Bijeaux, and Amrutvyasa Ramasamy
+# Date: 5/1/2024
 # Description: 
 # This program uses a TensorFlow Lite object detection model to perform object 
-# detection on an image or a folder full of images. It draws boxes and scores 
-# around the objects of interest in each image.
+# detection on a folder full of images. It draws boxes and scores around sequences of numbers.
+# Green box indicates a sequence of 4 numbers, while red box indicates a sequence of numbers less than or 
+# greater than 4 numbers. 
 #
-# This code is based off the TensorFlow Lite image classification example at:
-# https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/examples/python/label_image.py
-#
-# I added my own method of drawing boxes and labels using OpenCV.
+# 1. Run image through the TFLite model.
+# 2. Our model generated results which we extracted in the form of a list of detections.
+# 3. We sorted the detection results. A detection consists of: [class, score, xmin, ymin, xmax, ymax] 
+# 4. We then ran the group_detections function to stich up our 4 digit sequences. 
+#    Note that this function is not recursive. It is 2 for loops, but the inner for loop never iterates accross the entire list again
+#    it only looks at the last item in each group array because we first sorted the list. 
+#    We believe this is an example of a function that could have been made much more complex by using recursion, 
+#    but using our approach put it in the category of a greedy algorithm.
 
 class detection:
     def __init__(self, object_name, score, xmin, ymin, xmax, ymax):
