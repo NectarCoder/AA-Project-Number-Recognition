@@ -30,3 +30,11 @@ Modified from [here](https://raw.githubusercontent.com/EdjeElectronics/TensorFlo
 - TensorFlow_Object_Detection_Notebook.ipynb was used to create our TFLite model.
 - test_pics folder are images our model had never seen. We cut images of numbers from images within that folder to create sequences of numbers we then put in the group_test folder.
 - PyTorch_Transformations.ipynb and PyTorch_Transformations 2.ipynb where notebooks that used PyTourch.TorchVision to augment our original images.
+
+## Running the Script: TFLite_detection_image_Edited.py
+
+- Follow the instructions to set up your Anaconda vm
+  https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/blob/master/deploy_guides/Windows_TFLite_Guide.md
+  - There is no need to download any detection scripts as you will be running the modified TFLite_detection_image_Edited.py script.
+- Open TFLite_detection_image_Edited.py in Visual Studio Code.
+- Open the Command Palette ( Ctrl+Shift+P ), type Python: Select Interpreter , and hit Enter, then select tflite1-env. This will allow you to run the script in debug mode if needed.
