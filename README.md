@@ -1,4 +1,4 @@
-# TensorFlow Based Number Recognition for ID Tag Verification
+# Utilization of TensorFlow for Number Recognition
 
 Term Project for CS 6045 - Advanced Algorithms.
 
@@ -12,28 +12,25 @@ Original training Colab file (with YouTube tutorial) can be found [here](https:/
 - Cody Bijeaux (cbijeaux@students.kennesaw.edu)
 - Amrutvyasa Ramasamy (aramasam@students.kennesaw.edu)
 
-## Instructions
-
-The instructions for both Jupyter notebooks are included in the notebook itself.
-
-### TFLite ID detection script
-
-Modified from [here](https://raw.githubusercontent.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/master/TFLite_detection_image.py).
-
-[instructions todo]
-
 ## File Contents
 
 - TFLite_detection_image_Edited.py is a script that reads images from the group_test folder and puts the results in the group_test_results folder.
-- TFLite_detection_image.py is included for transparency. This is the tutorial authors original script. We used this script as the basis of our modified script.
+- TFLite_detection_image.py is included for transparency. This is the tutorial authors [original script](https://raw.githubusercontent.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/master/TFLite_detection_image.py). We used this script as the basis of our modified script.
 - custom_model_lite is our converted TFLite model. This model was created using the TensorFlow_Object_Detection_Notebook.ipynb in Colab.
 - TensorFlow_Object_Detection_Notebook.ipynb was used to create our TFLite model.
 - test_pics folder are images our model had never seen. We cut images of numbers from images within that folder to create sequences of numbers we then put in the group_test folder.
 - PyTorch_Transformations.ipynb and PyTorch_Transformations 2.ipynb where notebooks that used PyTourch.TorchVision to augment our original images.
 
-## Running the Script: TFLite_detection_image_Edited.py
+## Instructions
 
-- Follow the instructions to set up your Anaconda vm
+### Notebooks
+
+The instructions for all Jupyter notebooks (Training and PyTorch) are included in the notebook itself.  
+See the below for instructions on how to run the image detection script.  
+
+### Running the Script: TFLite_detection_image_Edited.py
+
+- Follow the instructions to set up your Anaconda vm:
   https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/blob/master/deploy_guides/Windows_TFLite_Guide.md
   - There is no need to download any detection scripts as you will be running the modified TFLite_detection_image_Edited.py script.
 - Open TFLite_detection_image_Edited.py in Visual Studio Code.
