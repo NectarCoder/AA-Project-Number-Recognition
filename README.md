@@ -20,6 +20,7 @@ Original training Colab file (with YouTube tutorial) can be found [here](https:/
 - TensorFlow_Object_Detection_Notebook.ipynb was used to create our TFLite model.
 - test_pics folder are images our model had never seen. We cut images of numbers from images within that folder to create sequences of numbers we then put in the group_test folder.
 - PyTorch_Transformations.ipynb and PyTorch_Transformations 2.ipynb where notebooks that used PyTourch.TorchVision to augment our original images.
+- CS_6045_Utilizing_TensorFlow_for_Number_Recognition.docx - This is our Final Report for this project.
 
 ## Instructions
 
